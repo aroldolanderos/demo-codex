@@ -11,7 +11,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* Removed fixed height to keep header visible */
+  padding-top: 2rem;
 }
 
 .title {
